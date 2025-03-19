@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="books.html" >BOOKS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="books-page">
+        <section class="book-categories">
+            <h1><span style="background-color: #a78a7c;">Pick Your</span>  <br>
+                Interest,</h1>
+            <h3>Pick a</h3>
+            <h2>Genre</h2>
+            <hr style="border: 1px solid rgb(130, 129, 129);">
+        </section>
+
+        <section class="book-type">
+            
+
+            <div class="gcard g-nonfict" onclick="scrollToNonFict()">
+                <img src="img/icon/book-icon-2.png" alt="">
+                <h2>Non-Fiction</h2>
+            </div>
+
+            <div class="gcard g-classic" onclick="scrollToClassic()"> 
+                <img src="img/icon/book-icon.png" alt="">
+                <h2>Classic Lit</h2>
+            </div>
+
+            <div class="gcard gfantasy" onclick="scrollToFantasy()">
+                <img src="img/icon/book-icon-3.png" alt="">
+                <h2>Fantasy</h2>
+            </div>
+
+            <div class="gcard g-action-mystery" onclick="scrollToAction()"> 
+                <img src="img/icon/book-icon-3.png" alt="">
+                <h2>mystery/ <br>
+                    action
+                </h2>
+            </div>
+            
+        </section>
+        <section class="explore-books">
+            <div class="swiper-container swiper-gbooks">
+                <div class="swiper-wrapper gbooks-wrapper">
+                    <div id="nonfict" class="gbooks swiper-slide">
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-1.png" alt="">
+                            <h1><a href="#" onclick="saveBookDetails(1)">I Want to Die but I Want to Eat Tteokpokki</a></h1>
+                            <p>Baek Se-Hee</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-2.png" alt="">
+                            <h1>The Seven Habits of Highly Effective People</h1>
+                            <p>Stephen R. Covey</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-3.png" alt="">
+                            <h1>Thinking, Fast and Slow</h1>
+                            <p>Daniel Kahneman</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-4.png" alt="">
+                            <h1>Man's Search for Meaning</h1>
+                            <p>Victor Frankl</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-5.png" alt="">
+                            <h1>Meditationes</h1>
+                            <p>Marcus Aurelius</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-6.png" alt="">
+                            <h1>Blink</h1>
+                            <p>Malcolm Gladwell</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-7.png" alt="">
+                            <h1>Maybe You Should Talk to Someone</h1>
+                            <p>Lori Gottlieb</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-8.png" alt="">
+                            <h1>All About Flag</h1>
+                            <p>Robin Jacobs</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-9.png" alt="">
+                            <h1>The Origins of Totalitarianism</h1>
+                            <p>Hannah Arendt</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-10.png" alt="">
+                            <h1>12 Rules for Life: An Antidote to Chaos</h1>
+                            <p>Jordan Peterson</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-11.png" alt="">
+                            <h1>Eco Baby Where Are You Elephant?</h1>
+                            <p>Rachael Hare</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-12.png" alt="">
+                            <h1>Searching for the Meaning of Life </h1>
+                            <p>Viktor Frankl</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-13.png" alt="">
+                            <h1>Dasar-Dasar Ilmu Politik</h1>
+                            <p>Miriam Budiarjo Prof</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-14.png" alt="">
+                            <h1>The Art of Clear Thinking </h1>
+                            <p>Patrick King</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-nonfict/nonfict-15.png" alt="">
+                            <h1>HIdden Potential</h1>
+                            <p>Adam Grant</p>
+                        </div>
+                    </div>
+                    <div id="classic" class="gbooks swiper-slide">
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-1.png" alt="">
+                            <h1><a href="#" onclick="saveBookDetails(2)">Crime and Punishment</a></h1>
+                            <p>Fyodor Dostoevsky</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-2.png" alt="">
+                            <h1>The Metamorphosis</a></h1>
+                            <p>Franz Kafka</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-3.png" alt="">
+                            <h1>The Complete Stories</h1>
+                            <p>Franz Kafka</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-4.png" alt="">
+                            <h1>The Plague</h1>
+                            <p>Albert Camus</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-5.png" alt="">
+                            <h1>Emma</h1>
+                            <p>Jane Austen</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-6.png" alt="">
+                            <h1>The Complete Novels of Jane Austen</h1>
+                            <p>Jane Austen</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-7.png" alt="">
+                            <h1>The Bell Jar</h1>
+                            <p>Sylvia Plath</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-8.png" alt="">
+                            <h1>Little Women</h1>
+                            <p>Louisa May Alcott</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-9.png" alt="">
+                            <h1>A Tree Grows in Brooklyn </h1>
+                            <p>Betty Smith</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-10.png" alt="">
+                            <h1>The Count of Monte Cristo </h1>
+                            <p>Alexandre Dumas père</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-11.png" alt="">
+                            <h1>1984: 75th Anniversary Mass Market</h1>
+                            <p>George Orwell</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-12.png" alt="">
+                            <h1>Don Quixote</h1>
+                            <p>Miguel De Cervantes Saavedra</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-13.png" alt="">
+                            <h1>To Kill a Mockingbird </h1>
+                            <p>Harper Lee</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-14.png" alt="">
+                            <h1>The Catcher in the Rye</h1>
+                            <p>J. D. Salinger</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-classic/classic-15.png" alt="">
+                            <h1>Gone with the Wind</h1>
+                            <p>Margaret Mitchel</p>
+                        </div>
+                    </div>
+                    <div id="fantasy" class="gbooks swiper-slide">
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-1.png" alt="">
+                            <h1>The Poppy War</h1>
+                            <p>R.F Kuang</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-2.png" alt="">
+                            <h1>Bumi</h1>
+                            <p>Tere Liye</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-3.png" alt="">
+                            <h1>The Fellowship of The Ring</h1>
+                            <p>J.R.R Colkien</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-4.png" alt="">
+                            <h1>The Silver Chairnovel</h1>
+                            <p>C.S. Lewis</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-5.png" alt="">
+                            <h1>Komet</h1>
+                            <p>Tere Liye</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-6.png" alt="">
+                            <h1>The Songbird & the Heart of Stone</h1>
+                            <p>Carissa Broadbent</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-7.png" alt="">
+                            <h1>The Song of Achilles</h1>
+                            <p>Madeline Miller</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-8.png" alt="">
+                            <h1>Skyshade</h1>
+                            <p>Alex Aster</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-9.png" alt="">
+                            <h1>Where the Library Hides</h1>
+                            <p>Isabel Ibañez</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-10.png" alt="">
+                            <h1>The Teller of Small Fortunes</h1>
+                            <p>Julie Leong</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-11.png" alt="">
+                            <h1>Tale of the Heart Queen</h1>
+                            <p>Nisha J. Tuli</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-12.png" alt="">
+                            <h1>We Shall Be Monsters</h1>
+                            <p>Alyssa Wees</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-13.png" alt="">
+                            <h1>Charlie N. Holmberg's Book of Magic</h1>
+                            <p>Charlie N. Holmberg</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-14.png" alt="">
+                            <h1>The Serpent and the Wolf</h1>
+                            <p>Rebecca Robinson</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-fantasy/fantasy-15.png" alt="">
+                            <h1>Vanquished Gods</h1>
+                            <p>C.N. Crawford</p>
+                        </div>
+                    </div>
+                    <div id="action" class="gbooks swiper-slide">
+                        <div class="b-display">
+                            <img src="img/display-action/action-1.png" alt="">
+                            <h1><a href="#" onclick="saveBookDetails(7)">Riptide</a></h1>
+                            <p>Douglas Preston</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-2.png" alt="">
+                            <h1><a href="#" onclick="saveBookDetails(8)">The Adventures of Sherlock Holmes</a></h1>
+                            <p>Sir Arthur Conan Doyle</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-3.png" alt="">
+                            <h1>The Twelve Days of Murder</h1>
+                            <p> Andreina Cordani</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-4.png" alt="">
+                            <h1>The Silence of the Lambs</h1>
+                            <p>Thomas Harris</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-5.png" alt="">
+                            <h1>The Lake</h1>
+                            <p> Natasha Preston</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-6.png" alt="">
+                            <h1>Murder on the Orient Express</h1>
+                            <p>Agatha Christie</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-7.png" alt="">
+                            <h1>Second Sister</h1>
+                            <p> Chan Ho Kei</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-8.png" alt="">
+                            <h1>The Guardians</h1>
+                            <p>John Grisham</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-9.png" alt="">
+                            <h1>The Devil All the Time</h1>
+                            <p>Donald Ray Pollock</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-10.png" alt="">
+                            <h1>Sherlock Holmes: Koleksi Kasus 2</h1>
+                            <p> Sir Arthur Conan Doyle</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-11.png" alt="">
+                            <h1>I Am Watching You</h1>
+                            <p>Teresa Driscoll</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-12.png" alt="">
+                            <h1>The Summer House</h1>
+                            <p>James Patterson</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-13.png" alt="">
+                            <h1>Those Empty Eyes</h1>
+                            <p>Charlie Donlea</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-14.png" alt="">
+                            <h1>Project Hail Mary: </h1>
+                            <p> Andy Weir</p>
+                        </div>
+                        <div class="b-display">
+                            <img src="img/display-action/action-15.png" alt="">
+                            <h1>The Orphanage By The Lake</h1>
+                            <p> Daniel G. Miller</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>LitTri-Lib</h2>
+                <p>A digital reading platform with thousands of books across various genres. Your Next Adventure Is Just a Page Away</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>CONTACT US</h3>
+                <p>nabilahdaa@gmail.com</p>
+                <p>+6282160455334</p>
+            </div>
+            <div class="footer-section navigation">
+                <h3>NAVIGATION</h3>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Book</a></p>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2025 LitTriLib. All right reserved.</p>
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

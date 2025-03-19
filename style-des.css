@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    
+  }
+  
+  header {
+  
+    color: black;
+    padding: 10px 0;
+    margin: 0px auto 0; 
+    position: fixed; 
+    width: 100%;
+    z-index: 1000; 
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1em;
+    
+  }
+  
+  header.scrolled {
+    background: #ffffff; 
+    width: 100%; 
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  header.scrolled nav ul{
+    margin-left: 980px;
+    
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0 30px;
+    margin-left: 980px;
+  }
+  
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+
+
+  .book-description-container {
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .book-header {
+    margin-bottom: 30px;
+  }
+  
+  .book-header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Philosopher', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .book-header p {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+  }
+  
+  .book-synopsis h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .book-synopsis p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+  }
+  
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #a78a7c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #987a6b;
+  }
+  

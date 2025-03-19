@@ -1,0 +1,72 @@
+
+body {
+    background-color: #f2e5df;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header.scrolled {
+    background: #ffffff; 
+    width: 100%; 
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  header.scrolled nav ul{
+    margin-left: 980px;
+    
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0 30px;
+    margin-left: 980px;
+  }
+  
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+
+
+  .tittle h1{
+    font-size: 2em;
+    font-family: 'Philosopher', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+  }
+
+  .tittle h6{
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    font-weight: 100;
+    color: #333;
+  }
+
+  .tittle h5{
+    font-family: 'Philosopher',sans-serif;
+    font-size: 1.5em;
+    margin-left: 60px;
+  }
+
+  .tittle p{
+    font-size: 1.3em;
+    font-weight: 100;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+  }
